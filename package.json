@@ -1,0 +1,23 @@
+{
+  "name": "auth0-login",
+  "version": "1.0.0",
+  "description": "Authentication with auth0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auth0",
+    "login"
+  ],
+  "author": "kid-dev",
+  "license": "MIT",
+  "dependencies": {
+    "@types/auth0-js": "9.14.7",
+    "auth0-js": "9.20.0",
+    "dotenv": "16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18"
+  }
+}
